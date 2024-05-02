@@ -1,0 +1,58 @@
+Clone a repository: git clone [respository URL]
+
+Add a remote repository: git remote add [name] [repository URL]
+
+Fetch changes from a remote repository: git fetchPull 
+
+changes from a remote repository: git pull Push 
+
+changes to a remote repository: git push Use
+
+
+Create a new branch: git branch [name]Switch
+
+to a branch: git checkout [name]Merge a 
+
+branch: git merge [name] Resolve merge 
+
+conflicts: git mergetool Delete a branch: git
+
+branch -d [name]
+
+
+Create a new pull request: git request-pull [branch] [repository URL]
+
+Review and merge a pull request: git pull-request
+
+Close a pull request: git request-pull -C [branch] [repository URL]
+
+
+
+Create a new issue: git commit -m “[issue number] [commit message]”
+
+Assign an issue to a team member: git assign [username]
+
+Clone an issue: git clone [issue number] Reopen an
+
+issue: git reopen [issue number]Communicate
+
+
+Start a video call: git video-call [username]
+Share yourscreen: gitscreen-share
+Send a message: git message [username] [message]
+
+
+Install a git hook: git init [hook name]
+
+Write a git hook script: nano.git/hooks/[hook name]
+
+Make the Git hook script executable: chmod +x .git/hooks/[hook name]
+
+
+Add a Git submodule: git submodule add [repository URL]
+Update a Gitsubmodule: gitsubmodule update
+Remove a Gitsubmodule: gitsubmodule deinit [submodule path]
+
+
+Set up a Git alias: git config –global alias.[alias name] ‘[Git command]’
+Use a Git alias: git [alias name]
